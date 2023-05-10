@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>L6.1</title>
+  <style>
+.house {
+  width: 150px;
+  height: 150px;
+  background: coral;
+  position: absolute;
+  top: 159px;
+  left: 80px;
+  z-index: 0;
+}
+.roof {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  width: 0;
+  height: 0;
+  border-left: 110px solid transparent;
+  border-right: 110px solid transparent;
+  border-bottom: 100px solid red;
+}
+
+.chimney {
+  width: 20px;
+  height: 60px;
+  background: black;
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  
+}
+
+.door {
+  position: absolute;
+   width: 60px;
+  height: 90px;
+  background: brown;
+  top: 219px;
+  left: 130px;
+  z-index: 1;
+}
+.window {
+  position: absolute;
+   width: 40px;
+  height: 40px;
+  background: cyan;
+  top: 170px;
+  left: 100px;
+  z-index: 1;
+}
+  </style>
+</head>
+<body>
+  <div class="main-block">
+  <div class="door"></div>
+  <div class="window"></div>
+  <div class="house"></div>
+  <div class="chimney"></div>
+  <div class="roof"></div>
+</div>
+</body>
+</html>
