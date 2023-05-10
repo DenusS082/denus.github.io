@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table Example</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      text-align: center;
+      padding: 10px;
+      background-color: #0077c2;
+      color: #fff;
+    }
+
+    th {
+      width: 25%;
+      border-right: 2px solid #fff;
+    }
+
+    td {
+      width: 20%;
+      background-color: #b3e5fc;
+      color: #000;
+      border-right: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+    }
+
+    td:last-child {
+      border-right: none;
+    }
+
+    .blue {
+      background-color: #e1f5fe;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .quarter {
+      width: 20%;
+      background-color: #0077c2;
+      color: #fff;
+      border-right: 2px solid #fff;
+    }
+
+    .quarter:first-child {
+      border-left: 2px solid #fff;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <th>Company</th>
+      <td class="quarter">Q1</td>
+      <td class="quarter">Q2</td>
+      <td class="quarter">Q3</td>
+      <td class="quarter">Q4</td>
+    </tr>
+    <tr>
+      <td style="background-color: #0077c2; color: #fff;">Microsoft</td>
+      <td class="blue">20.3</td>
+      <td class="blue">30.5</td>
+      <td class="blue">23.5</td>
+      <td class="blue">20.3</td>
+    </tr>
+    <tr>
+      <td style="background-color: #0077c2; color: #fff;">Google</td>
+      <td class="blue">50.2</td>
+      <td class="blue">40.63</td>
+      <td class="blue">45.23</td>
+      <td class="blue">39.3</td>
+    </tr>
+    <tr>
+      <td style="background-color: #0077c2; color: #fff;">Apple</td>
+      <td class="blue">25.4</td>
+      <td class="blue">30.2</td>
+      <td class="blue">33.3</td>
+      <td class="blue">36.7</td>
+    </tr>
+    <tr>
+      <td style="background-color: #0077c2; color: #fff;">IBM</td>
+      <td class="blue">20.4</td>
+      <td class="blue">15.6</td>
+      <td class="blue">22.3</td>
+      <td class="blue">29.3</td>
+    </tr>
+  </table>
+</body>
+</html>
