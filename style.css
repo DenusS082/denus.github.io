@@ -1,0 +1,21 @@
+li {
+    padding-left: 5px;
+}
+
+ul.one{
+    list-style-type: disc;
+
+}
+
+li span {
+    position: relative;
+    right: 7px;
+}
+
+ul.two {
+    list-style-type: disc;
+}
+
+ul.three {
+    list-style-type: disc;
+}
